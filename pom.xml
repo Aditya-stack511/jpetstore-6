@@ -222,7 +222,7 @@
             <overwrite>true</overwrite>
           </configuration>
         </plugin>
-        <plugin>
+<!--         <plugin>
           <groupId>org.codehaus.cargo</groupId>
           <artifactId>cargo-maven3-plugin</artifactId>
           <version>${cargo-maven3-plugin.version}</version>
@@ -240,7 +240,24 @@
               </properties>
             </daemon>
           </configuration>
-        </plugin>
+        </plugin> -->
+
+             <plugin>
+                    <groupId>org.codehaus.cargo</groupId>
+                    <artifactId>cargo-maven3-plugin</artifactId>
+                    <version>1.10.9</version>
+                    <configuration>
+                           <container>
+                                  <containerId>tomcat9x</containerId>
+                                  <type>installed</type>
+                           </container>
+                           <configuration>
+                                  <type>standalone</type>
+                           </configuration>
+                           <home>${project.build.directory}/cargo-tomcat</home>
+                    </configuration>
+             </plugin>
+
       </plugins>
     </pluginManagement>
     <plugins>
