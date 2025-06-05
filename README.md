@@ -1,5 +1,10 @@
 MyBatis JPetStore
-=================
+-------
+
+![Screenshot 2025-06-05 084803](https://github.com/user-attachments/assets/54edb39d-2f64-40ab-91be-b4e48685ce86)
+
+
+===========================================
 
 [![Java CI](https://github.com/mybatis/jpetstore-6/actions/workflows/ci.yaml/badge.svg)](https://github.com/mybatis/jpetstore-6/actions/workflows/ci.yaml)
 [![Container Support](https://github.com/mybatis/jpetstore-6/actions/workflows/support.yaml/badge.svg)](https://github.com/mybatis/jpetstore-6/actions/workflows/support.yaml)
